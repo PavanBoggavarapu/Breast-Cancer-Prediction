@@ -1,26 +1,30 @@
-# Breast-Cancer-Prediction
-Breast cancer prediction using ML models like SVM, KNN, and Random Forest with feature selection, EDA, and performance evaluation.
-🧠 Breast Cancer Prediction Using Machine Learning
-This project focuses on predicting whether a breast tumor is malignant or benign using machine learning algorithms. Leveraging the Breast Cancer Wisconsin dataset, the notebook includes data preprocessing, visualization, model training, and evaluation to support early detection and diagnosis.
-📌 Features
-Data preprocessing: handling missing values, label encoding
-Exploratory Data Analysis (EDA) with visualizations
-Feature selection using correlation analysis
-ML models: Logistic Regression, KNN, SVM, Random Forest
-Evaluation metrics: Accuracy, Confusion Matrix, Precision, Recall
-End-to-end workflow in a single Jupyter Notebook
-🧾 File Overview
-Git Breast Cancer Prediction Project.ipynb: Main notebook containing the complete workflow—EDA, feature engineering, model training, and evaluation
-⚙️ Requirements
-Make sure you have the following installed:
-Python 3.8+
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-Install dependencies with:
-bash
-Copy
-Edit
+# 🧠 Breast Cancer Prediction Using Machine Learning
+
+This project applies supervised machine learning techniques to predict whether a tumor is **benign** or **malignant** based on various medical features. Built using Python and Jupyter Notebook, it demonstrates the full data science pipeline from preprocessing to model evaluation, making it useful for healthcare data analysis and educational purposes.
+## 📊 Key Features
+- Uses the **Breast Cancer Wisconsin Diagnostic Dataset**
+- Complete pipeline:
+  - Data loading and exploration
+  - Feature selection and preprocessing
+  - Model building with classifiers like:
+    - Logistic Regression
+    - Support Vector Machine (SVM)
+    - K-Nearest Neighbors (KNN)
+    - Random Forest
+  - Evaluation using accuracy, confusion matrix, precision, recall, and F1-score
+- Clean and interactive visualization (matplotlib / seaborn)
+## 📁 File Structure
+## ⚙️ Requirements
+Make sure you have the following Python libraries installed:
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- scikit-learn
+- jupyter
+You can install them via:
+```bash
 pip install -r requirements.txt
+git clone https://github.com/PavanBoggavarapu/breast-cancer-prediction.git
+cd breast-cancer-prediction
+jupyter notebook "Git Breast Cancer  Prediction Project.ipynb"
